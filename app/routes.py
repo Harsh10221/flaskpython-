@@ -8,7 +8,6 @@ def home():
     return "Hello, Flask inside Docker!"
 
 
-
 @main_routes.route('/about')
 def about():
     return "This is a basic Flask app running inside a Docker container!"
