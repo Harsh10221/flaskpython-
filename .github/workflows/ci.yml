@@ -23,7 +23,7 @@ jobs:
         run: | 
           python -m pip install --upgrade pip
           pip install -r requirement.txt
-          
+
       - name: Run Linting
         run: |
           flake8 app
@@ -54,6 +54,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/flask-docker-app:latest
+          tags: your-dockerhub-harsh0031/flask-docker-app:latest
       
 
